@@ -1,4 +1,4 @@
-package com.eyedee.main.rest
+package com.eyedee.rest
 
 import com.eyedee.common.model.Something
 import com.eyedee.common.service.CommonService
