@@ -1,11 +1,11 @@
-package com.eyedee.nativemultimodule
+package com.eyedee.main
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class NativeMultiModuleApplication
+class MainApplication
 
 fun main(args: Array<String>) {
-	runApplication<NativeMultiModuleApplication>(*args)
+    runApplication<MainApplication>(*args)
 }

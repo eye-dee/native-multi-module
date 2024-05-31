@@ -1,13 +1,13 @@
-package com.eyedee.nativemultimodule
+package com.eyedee.main
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class NativeMultiModuleApplicationTests {
+class MainApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
+    @Test
+    fun contextLoads() {
+    }
 
 }
