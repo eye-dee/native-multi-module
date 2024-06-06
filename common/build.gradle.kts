@@ -9,7 +9,6 @@ repositories {
 
 dependencies {
     api("org.springframework.boot:spring-boot-starter-validation")
-    api("org.springframework.boot:spring-boot-starter-webflux")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")

@@ -14,8 +14,6 @@ repositories {
 }
 
 dependencies {
-
-    implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation(project(":common"))
 
     runtimeOnly("org.jetbrains.kotlin:kotlin-reflect")
@@ -28,7 +26,7 @@ dependencies {
 graalvmNative {
     binaries {
         named("main") {
-            mainClass.set("com.eyedee.MainApplicationKt")
+            mainClass.set("com.eyedee.JobApplicationKt")
             sharedLibrary.set(false)
         }
     }
