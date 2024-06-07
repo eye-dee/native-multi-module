@@ -1,0 +1,5 @@
+CREATE TABLE common
+(
+    id      BIGSERIAL PRIMARY KEY,
+    keyword TEXT NOT NULL UNIQUE
+)

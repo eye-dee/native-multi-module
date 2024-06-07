@@ -1,1 +1,14 @@
-spring.application.name=main
+spring:
+  application:
+    name: job
+
+  datasource:
+    url: ${db.url}
+
+  flyway:
+    url: ${db.url}
+    user: native
+    password: native
+
+db:
+  url: jdbc:postgresql://localhost:5432/native

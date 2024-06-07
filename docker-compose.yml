@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  postgres:
+    image: "postgres:latest"
+    environment:
+      - POSTGRES_DB=native
+      - POSTGRES_USER=native
+      - POSTGRES_PASSWORD=native
+    ports:
+      - "5432:5432"
