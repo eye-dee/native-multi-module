@@ -4,11 +4,14 @@ spring:
 
   datasource:
     url: ${db.url}
+    username: native
+    password: native
 
   flyway:
     url: ${db.url}
     user: native
     password: native
+    enabled: true
 
 db:
   url: jdbc:postgresql://localhost:5432/native
