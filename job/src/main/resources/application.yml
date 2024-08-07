@@ -12,6 +12,8 @@ spring:
     user: native
     password: native
     enabled: true
+    postgresql:
+      transactional-lock: false
 
 db:
   url: jdbc:postgresql://localhost:5432/native
